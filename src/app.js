@@ -7,5 +7,23 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+
+  let pronoun = ["the", "our"];
+  let adj = ["great", "big"];
+  let noun = ["jogger", "racoon"];
+  let domainHacks = [".com", ".es", ".net", ".us", ".io"];
+
+  let domains = [];
+
+  for (let i of pronoun) {
+    for (let x of adj) {
+      for (let y of noun) {
+        for (let hacks of domainHacks) {
+          domains.push(`${i}${x}${y}${hacks}`);
+        }
+      }
+    }
+  }
+
+  console.log(domains);
 };
