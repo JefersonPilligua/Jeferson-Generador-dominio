@@ -5,6 +5,8 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
+//LE CAMBIE EL FONDO A NEGRO PORQUE ME MOLESTA UN POCO EL BLANCO DE LA PAGINA XD ALUMBRA MUCHO
+
 window.onload = function() {
   //write your code here
 
